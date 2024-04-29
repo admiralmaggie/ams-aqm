@@ -89,7 +89,7 @@ $(document).ready(function()
    // get the Channel data with a webservice call
  	$.ajax({
     type: "GET",
-    dataType: "jsonp",
+    dataType: "json",
     crossDomain: true,
     crossOrigin: true,
     url: 'https://us-central1-pythonstuff-196122.cloudfunctions.net/thingSpeakProxy?channel='+channelNumber+'&api_key='+key+'&req_type=feed', 
